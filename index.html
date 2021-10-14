@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        <link rel="stylesheet" href="./assets/css/main.css"/>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    </head>
+    <body>
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Menu -->
+            <nav id="menu">
+                <ul class="links">
+                </ul>
+            </nav>
+            <!-- Banner -->
+            <section id="banner" class="major">
+                <div class="inner">
+                    <header class="major">
+                        <h1>[FirstName LastName]</h1>
+                    </header>
+                </div>
+            </section>
+            <!-- Main -->
+            <div id="main">
+                <nav>
+                    <a href="#menu">Menu</a>
+                </nav>
+                <!-- One -->
+                <section id="one">
+                    <article>
+                        <model-viewer src="./assets/glb/lolipop_website_test.glb"
+                                      ar ar-modes="webxr scene-viewer quick-look"
+                                      camera-controls environment-image="neutral"
+                                      poster="poster.webp" shadow-intensity="1">
+                                <div class="progress-bar hide" slot="progress-bar">
+                                <div class="update-bar"></div>
+                                </div>
+                                <button slot="ar-button" id="ar-button">
+                                    View in your space
+                                </button>
+                        </model-viewer>
+                    </article>
+                </section>
+</div>
+<!-- Contact -->
+<section id="contact">
+    <div class="inner">
+        <section>
+            <div>
+                <h2>
+                   About me
+                </h2>
+            </div>
+        </section>
+        <section class="split">
+            <section>
+                <div class="contact-method">
+                    <span class="icon alt fa-envelope"></span>
+                    <h3>Email</h3>
+                    <a href="mailto:youremailaddress@gmail.com">youremailaddress@gmail.com</a>
+                </div>
+            </section>
+            <section>
+                <div class="contact-method">
+                    <span class="icon alt fa-phone"></span>
+                    <h3>Phone</h3>
+                    <a>[Phone]</a>
+                </div>
+            </section>
+        </section>
+    </div>
+</section>
+<!-- Footer -->
+<footer id="footer">
+    <div class="inner">
+        <ul class="icons">
+            <li>
+                <a href="https://twitter.com/andrewbanchich" class="icon alt fa-twitter" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <span class="label">Twitter</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</div>
+<!-- Scripts -->
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/jquery.scrolly.min.js"></script>
+<script src="./assets/js/jquery.scrollex.min.js"></script>
+<script src="./assets/js/skel.min.js"></script>
+<script src="./assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="/forty-jekyll-theme/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="./assets/js/main.js"></script>
+</body></html>
