@@ -1,7 +1,7 @@
 on:
   push:
     paths:
-      - 'assets/content.yml'
+      - 'content.yml'
 
 name: Convert
 
