@@ -2,6 +2,7 @@ on:
   push:
     paths:
       - 'content.yml'
+  workflow_dispatch:
 
 name: Convert
 
