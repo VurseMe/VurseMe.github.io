@@ -1,0 +1,23 @@
+{
+    "name": "FirstName LastName",
+    "banner": "assets/img/banner.jpg",
+    "bio": {
+        "description": "This is a test",
+        "email": "youremailaddress@email.spaghetti",
+        "phone": "Not 911"
+    },
+    "social": {
+        "twitter": "twitterhandle"
+    },
+    "highlights": [
+        {
+            "model": "lolipop_website_test"
+        },
+        {
+            "model": "pokeball_test_for_website_2"
+        },
+        {
+            "model": "lolipop_website_test"
+        }
+    ]
+}

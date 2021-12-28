@@ -1609,9 +1609,15 @@ h1 {
 }
 
 h2 {
-    font-size: 1.75em
+    font-size: 1.75em;
 }
 
+h2#highlight-header {
+    padding-left: 1em;
+}
+h2#works-header {
+    padding-left: 1em;
+}
 h3 {
     font-size: 1.35em
 }
@@ -2860,7 +2866,7 @@ input.disabled[type="submit"],input[type="submit"]:disabled,input.disabled[type=
     font-size: 1.5em;
     height: inherit;
     line-height: inherit;
-    padding: 0 0.75em;
+    padding: 0.7em 0 0 0.75em;
     position: relative;
     text-decoration: none;
     vertical-align: middle

@@ -1,6 +1,6 @@
 {
-    "title": "Lolipop for Website Testing",
-    "description": "This is an untextured lolipop",
+    "title": "Pokeball for Website Testing",
+    "description": "This is a textured pokeball",
     "year": 2021,
     "categories": [
         {
@@ -10,7 +10,7 @@
             "tag": "test"
         },
         {
-            "tag": "untextured"
+            "tag": "textured"
         }
     ]
 }
