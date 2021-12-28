@@ -3,7 +3,7 @@ banner: assets/img/banner.jpg
 bio:
   description: This is a test
   email: youremailaddress@email.spaghetti
-  phone: Not 911
+  phone: Not 911 
 social:
   twitter: twitterhandl
 highlights:
